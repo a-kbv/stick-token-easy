@@ -1241,6 +1241,58 @@ a {
 .cid-sMpCr1BMNW .mbr-section-title {
   color: #37d45c;
 }
+.cid-presell {
+  padding-top: 120px;
+  padding-bottom: 90px;
+  background-image: url("../../images/preparetoflyght.png");
+}
+.cid-presell h3 {
+  text-align: center;
+  letter-spacing: 0;
+}
+.cid-presell .wrap {
+  width: 130px;
+  height: 130px;
+  margin: 0 auto;
+}
+.cid-presell .pie_progress__number {
+  font-weight: 600;
+  text-align: center !important;
+  color: #ffffff;
+}
+.cid-presell .mbr-section-subtitle {
+  color: #ffffff;
+}
+.cid-presell .card-title {
+  margin-bottom: 0;
+}
+.cid-presell .card {
+  -webkit-flex-basis: 100%;
+  flex-basis: 100%;
+  word-wrap: break-word;
+}
+.cid-presell .svg-gradient {
+  position: absolute;
+}
+.cid-presell svg {
+  overflow: visible;
+}
+.cid-presell ellipse {
+  stroke: rgba(206, 206, 206, 0.4);
+  stroke-width: 14px;
+}
+.cid-presell path {
+  stroke-width: 14px;
+}
+@media (max-width: 991px) and (min-width: 768px) {
+  .cid-presell .card {
+    -webkit-flex-basis: 50%;
+    flex-basis: 50%;
+  }
+}
+.cid-presell .mbr-section-title {
+  color: #37d45c;
+}
 .cid-sLUC5VVsUJ {
   padding-top: 135px;
   padding-bottom: 135px;
