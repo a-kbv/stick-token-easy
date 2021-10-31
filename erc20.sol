@@ -100,8 +100,8 @@ contract HelloCoin is ERC20Interface, Owned, SafeMath {
     // Constructor
     // ------------------------------------------------------------------------
     constructor() public {
-        symbol = "HC";  //our coin's symbol
-        name = "HelloCoin"; //our coin's name
+        name = "StickToken"; //our coin's name
+        symbol = "STK";  //our coin's symbol
         decimals = 18;
         _totalSupply = 666;
         balances[msg.sender] = _totalSupply;
